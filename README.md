@@ -1,1 +1,0 @@
-# kuntal-python-django.github.io
