@@ -33,10 +33,14 @@
                 <td>Postgres</td>
                 <td>
                     <p>
-                        We have created one features for Realbuzz group which is basically find all the
-                        nearest event around a user. From the scraping data we have make those features. FMN partner
-                        can login and registered there in this wepapp. So this app is like a breeze between user as well as
-                        company or organizers of events.
+                        This is a features development scope website is already running and we have integrate the newly 
+                        developed app with the existing one. We need to created one feature for Realbuzz group which is 
+                        basically find the entire nearest gaming events around a user. From the scraping data we have 
+                        make those features. One another section is FMN partner can come to our website and registered 
+                        their events in our website so that their events reach to the more users. So this app is like a 
+                        breeze between user as well as company or organizers of events. Now when user will login and 
+                        search a race like 1k, 2k or marathon with a place name, they can see all the available events 
+                        near to that places.
                     </p>
                 </td>
             </tr>
@@ -48,17 +52,36 @@
                 <td>Postgres</td>
                 <td>
                     <p>
-                         Brandcil is a platform where User can post anything in Facebook, LinkedIn, Twitter
-                        at same time by using brancil platform. It is a Multi tenancy Application developed and
-                        maintained in python. User can select Package or Subscription plan, one new tenant will be
-                        created. Subscriber can Login with that account and create staff and can set permission for those
-                        staff. User can upload Image or video or PDF from their Local, Dropbox, Google drive at the time
-                        they are sharing the link this will be downloaded and put it into s3 using BOTO3 so that after
-                        anytime if user delete those files from their cloud it will still be available into their Brandcil
-                        Account. User can select those Image, Video, PDF during posting into social media. People can
-                        schedule their post as they want brandcil will post that content in social platform as user
-                        mentioned. User can create caption also for future uses. CMS section is also there. Admin can see
-                        report and get CSV also. User can upgrade their plan.
+                        Brandcil is a platform where User can post their content in Facebook, LinkedIn, Twitter at same 
+                        time by using brancil platform. Basically it is an Automatic and schedule posting platform without 
+                        any manual interaction at the time of posting. It is a Multi tenancy Application developed and
+                        maintained in python. User can select Package or Subscription plan; one new tenant will be created, 
+                        User will get everything in their registered email.  This Application has two part, 
+                        Superadmin and Subscriber. Superadmin can create package, plans and can mange sub-admin with permission, 
+                        can manage subscriber user account, CMS, Payment, site settings, Social Platform settings. 
+                        Subscriber/Tenant can Login with that account and create staff. User can upload Image or 
+                        video from their Local, Dropbox, Google drive, this media objects is being handle with S3 
+                        using boto3 package. User can delete any file at any time.  User can select those Image, 
+                        Video during posting into social media. People can schedule their post as they want brandcil 
+                        will post that content in social platform as user mentioned. User can create caption also for 
+                        future uses. CMS section is also there. Subscriber and Admin can see report and get CSV also 
+                        for their account. User can upgrade their plan too.
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>LinkedIn Scraper</td>
+                <td>Python, Scrapy, Selenium</td>
+                <td>Postgres</td>
+                <td>
+                    <p>
+                        This is simply a scraping Project where we need to scrape LinkedIn user 
+                        profile data like: Name, Current Company, Job Title, Last Education details. 
+                        Basically object of project we need to validate user data from user LinkedIn profile url. 
+                        Client has given us one .xlsx file which contains user LinkedIn profile url and user data.
+                        First we need to scrape those user data then we need to validate those data with .xlsx data.
                     </p>
                 </td>
             </tr>
